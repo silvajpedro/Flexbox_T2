@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    background-color: brown;
+    height: 16vh;
+    display: flex;
+    list-style: none;
+    // justify-content -> atua no posicionamento horizontal
+    justify-content:space-evenly;
+    // flex-start -> alinha todos os itens na parte esquerda da página
+    // flex-end -> alinha todos os itens na parte direita da nossa página
+    // center -> alinha todos os itens na parte do meio da página
+    // - Space Evenly: Espaço igual entre os itens e nas bordas.
+    // - Space Around: Espaço igual ao redor, com metade nas bordas.
+    // - Space Between: Espaço igual entre os itens, sem nas bordas.
+    
+    // align-items -> atua no posicionamento vertical
+    align-items: center;
+    // flex-start -> alinha todos os elementos no topo da página
+    // center -> alinha todos os elementos no meio da página
+    // flex-end -> alinha todos os elementos no final da página
+}
+li{
+    color: white;
+    // densidade/peso da fonte, 300, 600, 900
+    font-weight:900;
+}
+img{
+    width: 30vw;
+    height: 36vh;
+}
+main{
+    border: solid;
+    height: 58vh;
+    display: flex;
+    justify-content: space-around;
+    align-items:center
+}
